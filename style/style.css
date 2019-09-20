@@ -58,3 +58,14 @@ h1 {
 .dodgy input {
     border: 5px solid red;
 }
+
+.radio {
+    padding-top: 40px;
+    float: right;
+    padding-right: 70px;
+    text-align: right;
+}
+
+.radio ul {
+    list-style: none;
+}

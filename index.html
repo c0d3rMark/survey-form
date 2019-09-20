@@ -27,13 +27,47 @@
             <p id="description">Help us st<span>ea</span>l your identity bet<span>t</span>er!!!<br><br>Please read our legalation conditions:</p>
             <p class="terms">This is a joke page for a FCC Project</p>
             <div class="formRow">
-                <label class="labels">What's ya name?</label>
-                <input id="name" type="text" required>
+                <label id="name-label" class="labels">What's ya name?</label>
+                <input id="name" type="text" name="name" placeholder="enter your name" required>
             </div>
             <div class="dodgy">
-                    <label class="wrong">E-ma1l</label>
-                    <input id="email" type="text" required>
+                    <label id="email-label" class="wrong">E-ma1l</label>
+                    <input id="email" type="email" name="email" placeholder="Enter ur e-mail" required>
             </div>
+            <div class="formRow">
+                <label id="number-label" class="labels">age</label>
+                <input id="number" type="number" name="age" placeholder="Enter ur age" min="18" max="125" required>
+        </div>
+        <!--Drop down selection-->
+        <div class="formRow">
+            <label>What option best describes your bank account?</label>
+        <select id="dropdown">
+            <option disabled selected>Select an option</option>
+            <option>Empty</option>
+            <option>Average</option>
+            <option>Overflowing</option>
+        </select>
+        </div>
+
+        <div class="radio">
+            <label>What e-mail are you most liekly to open??</label>
+                <ul>
+                    <li>
+                        <label>Finanshal</label>
+                        <input type="radio" name="spam-check" value="1">
+                    </li>
+                    <li>
+                        <label>Promotiony DEals</label>
+                        <input type="radio" name="spam-check" value="2">
+                    </li>
+                    <li>
+                        <label>Anything</label>
+                        <input type="radio" name="spam-check" value="3">
+                    </li>
+                </ul>
+        </div>
+
+
         </form>
     </section>
 
