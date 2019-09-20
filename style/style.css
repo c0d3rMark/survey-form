@@ -1,8 +1,60 @@
+/*global*/
+
 body {
     background-color: #f4f4f4;
+    font-family: Hack, Arial, sans-serif;
 }
+
+/*On page*/
 
 h1 {
     text-align: center;
     margin-top: 40px;
+}
+
+.form-container {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    background-color: white;
+}
+
+.form-container p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+#description span {
+    font-size: 12px;
+}
+
+#survey-form .terms {
+    font-size: 1px;
+}
+
+.formRow {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#name,
+.formRow {
+    display: inline-block;
+}
+
+.wrong {
+    color: grey;
+   text-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.dodgy {
+    padding-top: 55px;
+    margin-left: -10px;
+}
+
+.dodgy input {
+    border: 5px solid red;
 }
