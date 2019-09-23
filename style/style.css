@@ -3,6 +3,7 @@
 body {
     background-color: #f4f4f4;
     font-family: Hack, Arial, sans-serif;
+    color: white;
 }
 
 /*On page*/
@@ -10,13 +11,16 @@ body {
 h1 {
     text-align: center;
     margin-top: 40px;
+    color: orange;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 4px 8px 10px black;
 }
 
 .form-container {
     width: 80%;
     height: 80vh;
     margin: auto;
-    background-color: white;
+    background-color: #3A3B3B;
 }
 
 .form-container p {
@@ -68,4 +72,22 @@ h1 {
 
 .radio ul {
     list-style: none;
+}
+
+.check {
+    width: 160px;
+    margin-top: 100px;
+    margin-left: 190px;
+    border: 3px solid yellow;
+    padding: 10px;
+    background-color: white;
+    color: red;
+}
+
+button {
+    margin: 70px;
+    background-color: #5773A1;
+    padding: 30px;
+    border: 2px solid red;
+    font-size: 10px;
 }
